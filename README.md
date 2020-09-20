@@ -12,7 +12,7 @@ cd single-command-execution-competitive-programming-master/
 chmod +x cpr
 ```
 
-- Create a folder in /opt/
+- Create a folder in `/opt/`
 ```bash
 mkdir /opt/cpr
 ```
