@@ -1,0 +1,31 @@
+#!/bin/sh
+
+if [ $# -lt 1 ]
+then
+	echo "No source file provided"
+	exit 1
+fi
+
+if [ $# -eq 2 ]
+then
+	filename=$2
+else
+	filename="in.txt"
+fi
+
+case $1 in
+	*.c)
+	gcc $1 -o exec && ./exec < $filename
+	;;
+
+	*.cpp)
+	g++ $1 -o exec && ./exec < $filename
+	;;
+
+	*.java)
+	javac $1 && java Main < $filename
+	;;
+
+	*.py)
+	python3 $1 < $filename
+esac
