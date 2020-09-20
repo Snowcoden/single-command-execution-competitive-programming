@@ -14,7 +14,7 @@ chmod +x cpr
 
 - Create a folder in `/opt/`
 ```bash
-mkdir /opt/cpr
+sudo mkdir /opt/cpr
 ```
 
 - Move the script to your `/opt/` folder
@@ -26,6 +26,8 @@ sudo mv cpr /opt/cpr/
 ```bash
 echo "export PATH=\$PATH:/opt/cpr/" >> ~/.bashrc
 ```
+
+- Reload the terminal
 
 ## Usage
 #### Usage 1
