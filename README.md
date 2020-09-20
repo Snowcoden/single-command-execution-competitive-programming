@@ -1,6 +1,12 @@
 # single-command-execution-competitive-programming
 Single line bash command for compiling and running a program for Competitive Programming
 
+## Languages Supported
+- C++
+- C
+- Java
+- Python
+
 ## Installation
 - Extract the contents of the downloaded ZIP
 - Move inside the extracted folder
