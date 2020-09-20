@@ -12,14 +12,19 @@ cd single-command-execution-competitive-programming-master/
 chmod +x cpr
 ```
 
+- Create a folder in /opt/
+```bash
+mkdir /opt/cpr
+```
+
 - Move the script to your `/opt/` folder
 ```bash
-sudo mv cpr /opt/cp/
+sudo mv cpr /opt/cpr/
 ```
 
 - Add the location of the folder containing the script to your command path in `~/.bashrc`
 ```bash
-echo "export PATH=$PATH:/opt/cp/" >> ~/.bashrc
+echo "export PATH=\$PATH:/opt/cpr/" >> ~/.bashrc
 ```
 
 ## Usage
