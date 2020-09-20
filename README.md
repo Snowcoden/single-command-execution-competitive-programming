@@ -2,14 +2,19 @@
 Single line bash command for compiling and running a program for Competitive Programming
 
 ## Installation
-- Move the `cpr` script to your `/opt/` folder
+- Make the script executable
 ```bash
-sudo mv cpr /opt/
+chmod +x ./single-command-execution-competitive-programming/cpr
 ```
 
-- Add the location of `/opt/` folder to your command path in `~/.bashrc`
+- Move the repo folder to your `/opt/` folder
 ```bash
-echo "export PATH=$PATH:/opt/" >> ~/.bashrc
+sudo mv ./single-command-execution-competitive-programming /opt/
+```
+
+- Add the location of the repo folder to your command path in `~/.bashrc`
+```bash
+echo "export PATH=$PATH:/opt/single-command-execution-competitive-programming/" >> ~/.bashrc
 ```
 
 ## Usage
