@@ -7,7 +7,7 @@ Single line bash command for compiling and running a program for Competitive Pro
 sudo mv cpr /opt/
 ```
 
-- Add the location of `/opt/` home folder to your command path in `~/.bashrc`
+- Add the location of `/opt/` folder to your command path in `~/.bashrc`
 ```bash
 echo "export PATH=$PATH:/opt/" >> ~/.bashrc
 ```
