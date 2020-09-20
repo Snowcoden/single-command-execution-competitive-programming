@@ -2,14 +2,14 @@
 Single line bash command for compiling and running a program for Competitive Programming
 
 ## Installation
-- Move the `cpr` script to your home folder
+- Move the `cpr` script to your `/opt/` folder
 ```bash
-mv cpr ~/
+sudo mv cpr /opt/
 ```
 
-- Add the location of your home folder to your command path in `~/.bashrc`
+- Add the location of `/opt/` home folder to your command path in `~/.bashrc`
 ```bash
-echo "export PATH=$PATH:~/" >> ~/.bashrc
+echo "export PATH=$PATH:/opt/" >> ~/.bashrc
 ```
 
 ## Usage
