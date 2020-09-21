@@ -8,32 +8,16 @@ Single line bash command for compiling and running a program for Competitive Pro
 - Python
 
 ## Installation
-- Extract the contents of the downloaded ZIP
-- Move inside the extracted folder
+- `curl` and execute the `INSTALL.sh` file
 ```bash
-cd single-command-execution-competitive-programming-master/
+curl -sS https://raw.githubusercontent.com/Snowden1738/single-command-execution-competitive-programming/master/INSTALL.sh | sh
 ```
-- Make the script executable
-```bash
-chmod +x cpr
-```
-
-- Create a folder in `/opt/`
-```bash
-sudo mkdir /opt/cpr
-```
-
-- Move the script to your `/opt/` folder
-```bash
-sudo mv cpr /opt/cpr/
-```
-
-- Add the location of the folder containing the script to your command path in `~/.bashrc`
-```bash
-echo "export PATH=\$PATH:/opt/cpr/" >> ~/.bashrc
-```
+Install `curl` if you don't have it installed.
 
 - Reload the terminal
+```bash
+exec bash -l
+```
 
 ## Usage
 #### Usage 1
